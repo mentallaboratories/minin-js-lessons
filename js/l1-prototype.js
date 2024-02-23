@@ -1,5 +1,3 @@
-// 1. prototypes
-
 const person = {
     name: 'John',
     age: 21,
