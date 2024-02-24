@@ -21,3 +21,5 @@ Object.prototype.sayHello = function(){
 
 const jane = Object.create(person)
 jane.name = 'Jane'
+
+const str = new String('I am string')
