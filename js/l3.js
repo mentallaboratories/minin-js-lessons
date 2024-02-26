@@ -35,27 +35,33 @@
 // const comUrl = createUrl('com')
 // console.log(comUrl('google'))
 
+// function logPerson(){
+//     console.log(`Person: ${this.name}, ${this.age}, ${this.job}`)
+// }
 
+
+
+// const person1 = {name:'Alex', age:33, job:'SMM'}
+// const person2 = {name:'Silvia', age:23, job:'Backend'}
 
 
 // task1
 // function bind(context,fn) {
-//     return function(...args) {
-//         fn.apply(context, args)
-//     }
+//     return fn.apply(context)
 // }
 
 
-function logPerson(){
-    console.log(`Person: ${this.name}, ${this.age}, ${this.job}`)
-}
 
 
+//logPerson.apply(person1)
 
-const person1 = {name:'Alex', age:33, job:'SMM'}
-const person2 = {name:'Silvia', age:23, job:'Backend'}
-
-logPerson.apply(person1)
-
-// bind(person1.logPerson)()
+// bind(person1.logPerson)
 // bind(person2.logPerson)()
+
+
+
+
+// стукаємо в ардуіно шилд
+
+
+ 
